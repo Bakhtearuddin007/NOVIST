@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,li{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* main part strt */
+
+/*main body banerr  part strt  */
+
+
+#main_body .banner_part{
+    background-image: url(../image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+#main_body .banner_part{
+    position: relative;
+}
+
+#main_body .banner_part .ban_text {
+	position: absolute;
+	top: 44%;
+	left: 46%;
+	transform: translate(-50% , -50%);
+	-webkit-transform: translate(-50% , -50%);
+	-moz-transform: translate(-50% , -50%);
+	-ms-transform: translate(-50% , -50%);
+	-o-transform: translate(-50% , -50%);
+}
+
+#main_body .banner_part .ban_text h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #030405;
+    text-transform: capitalize;
+    text-align: center;
+}
+#main_body .banner_part .ban_text p {
+	font-size: 21px;
+	font-weight: 400;
+	color: #63778F;
+	text-transform: capitalize;
+	text-align: center;
+	padding-top: 82px;
+}
+
+/*main body banerr  part end  */
+
+/* main body form start */
+
+#main_body .form_part {
+    background-color: #f2f2f2;
+    height: 100%;
+}
+
+#main_body .form_part .logo{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#main_body .form_part .logo h2 {
+	font-size: 33px;
+	color: #000000;
+	height: 60px;
+	width: 60px;
+	background-color: transparent;
+	border: 3px solid black;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	line-height: 56px;
+	text-align: center;
+	font-weight: 500;
+}
+
+#main_body .form_part .form_heading h2 {
+	font-size: 36px;
+	color: #000000;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 25px;
+}
+
+.form_content {
+	background-color: #fff;
+	padding: 0 20px 30px 20px;
+	margin: 20px 80px 40px 80px;
+}
+
+.form_content button {
+	font-size: 22px;
+}
+
+.form_content ul{
+    justify-content: center;
+    margin-right: -40px;
+}
+.form_content ul li{
+    width: 50%;
+    text-align: center;
+}
+
+.sign_in {
+	padding-left: 68px;
+	padding-right: 120px;
+	margin-left: -20px;
+}
+
+.create_account {
+	padding-left: 38px;
+	padding-right: 30px;
+     margin-right: 0px; 
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #495057;
+	background-color: #F2F2F2;
+	border-color: transparent;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	 border-color:transparent; 
+	isolation: isolate;
+}
+
+.nav-link {
+	color: #000000;
+}
+
+.nav-tabs {
+	border-bottom: transparent; 
+}
+
+.sign_in_head h2 {
+	font-size: 26px;
+	color: #000000;
+	text-transform: capitalize;
+	padding: 11px 0px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+}
+.sign_in_head p {
+	font-size: 16px;
+	color: #00000094;
+	text-transform: capitalize;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+form label{
+    font-weight: 600;
+    color: #000000;
+}
+
+.sign_in_btn{
+    background-color: black;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+}
+.sign_in_btn a{
+    font-size: 22px;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+}
+
+.forget_pass{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.forget_pass a{ 
+    color: #00000070;
+    border-bottom: 1px solid #00000070;
+
+}
+
+.or{
+    position: relative;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.or::after {
+	top: 21px;
+	left: 0;
+	width: 227px;
+	height: 1px;
+	position: absolute;
+	content: '';
+	background-color: black;
+}
+.or::before {
+	top: 21px;
+	right: 0;
+	width: 227px;
+	height: 1px;
+	position: absolute;
+	content: '';
+	background-color: black;
+}
+
+.google_sign {
+    text-align: center;
+    margin-top: 20px;
+}
+.google_sign a{
+    font-size: 16px;
+    color: #fff;
+    background-color: #4367D6;
+    width: 100%;
+    padding: 10px 12px;
+    text-transform: capitalize;
+
+}
+
+
+
+/* main body form end */
+
+
+        
+
+/* main part end */
